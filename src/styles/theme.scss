@@ -1,0 +1,15 @@
+body[data-theme="light"] {
+    --bodyBg: #{$lightBg};
+    --inputBg: rgba(71, 147, 255, 0.2);
+    --textColor: #{$blackColor};
+    --componentsBg: #{$componentsBgLight};
+    --cardBg: rgba(71, 147, 255, 0.2);
+}
+
+body[data-theme="dark"] {
+    --bodyBg: #{$darkBg};
+    --inputBg: #{$componentsBgDark};
+    --textColor: #{$lightBg};
+    --componentsBg: #{$componentsBgDark};
+    --cardBg: #2E3035;
+}
